@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  service:
+    image: theneonlightning/service
+    ports:
+      - 8800:8080
+  user:
+    image: theneonlightning/user
+    ports:
+      - 7700:7070
